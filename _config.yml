@@ -1,2 +1,2 @@
-baseurl: /labs
+baseurl: /devbanana
 exclude: ["README.md"]
