@@ -1,0 +1,11 @@
+- title: fruits and vegetables
+  info: responsive design
+  img: 'images/fruitsandvegetables.png'
+
+- title: Pacman
+  info: small game
+  img: 'images/pacman-game.png'
+
+- title: Portfolio
+  info: responsive design
+  img: 'images/portfolio.png'
