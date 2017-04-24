@@ -3,13 +3,115 @@ html, body {
   padding: 0;
 }
 
+
+footer {
+  box-shadow: 0px 20px 20px 18px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 330px;
+  padding-top: 50px;
+}
+
+
+footer .button {
+  align-items: center;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  margin: 0 5%;
+  margin-top: 30px;
+}
+
+footer div .contact-button {
+  background-color: #fff;
+  padding: 10px;
+}
+
+footer div .contact-button a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .creator {
+  align-items: center;
+  background-color: #efefef;
+  display: flex;
+  font-size: 13px;
+  height: 100px;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+footer div .footer-desc {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+nav img {
+  height: 50px;
+  margin-left: 50px;
+  width: 50px
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
 .bg-img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
-  margin: 0 3%;
-  width: 500px;
+  height: 550px;
+  width: 50%;
+}
+
+.bg-img a {
+  text-decoration: none;
+}
+
+.bg-img p {
+  margin: 0;
+}
+
+.bg-img .show .proj-info {
+  color: #fff;
+  padding: 50px 0 0 50px;
+}
+
+.bg-img .show .proj-info .proj-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bg-img .show .proj-info .proj-text {
+  margin-top: 10px;
+}
+
+.current {
+  color: red;
 }
 
 .show {
@@ -24,4 +126,77 @@ html, body {
 .bg-img:hover div {
   visibility: visible;
   opacity: 1;
+}
+
+.main-content {
+  margin: 0 4%;
+}
+
+.main-content h2 {
+  font-size: 50px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.main-content .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  height: 500px;
+}
+
+.main-content .projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.main-content .info .special, .main-content .info .desc {
+  color: #727272;
+}
+
+.price {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 100px 0;
+}
+
+.price h2 {
+  align-self: center;
+  margin-top: 40px;
+}
+
+.price .price-info {
+  align-self: center;
+  color: #727272;
+  margin-top: 50px;
+}
+
+.price .price-details {
+  display: flex;
+  justify-content: center;
+}
+
+.price .price-details div {
+  border: 1px solid #777;
+  margin: 0 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.price .price-details div:hover {
+  color: white;
+  background-color: green;
+  transition: ease-out .3s;
+}
+
+.price .price-details div p, .price .price-details div h1 {
+  margin: 10px;
+}
+
+.price .price-details div p {
+  margin-top: 30px;
+  font-weight: bold;
 }

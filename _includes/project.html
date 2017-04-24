@@ -1,10 +1,16 @@
-<section>
+<section class="projects">
   {% for project in site.data.projects %}
-    <div id="bg-img" class="bg-img" style="background-image: url({{site.baseurl}}/{{project.img}}) ">
+
+    <div id="bg-img" class="bg-img" style="background-image: url({{site.baseurl}}/{{project.img}})">
+      <a href="{{project.link}}">
       <div id="show" class="show">
-        <p>{{project.title}}</p>
-        <p>{{project.info}}</p>
+        <div class="proj-info">
+          <p class="proj-title">{{project.title}}</p>
+          <p class="proj-text">{{project.info}}</p>
+        </div>
       </div>
+      </a>
     </div>
+
   {% endfor %}
 </section>

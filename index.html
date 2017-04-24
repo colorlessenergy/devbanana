@@ -2,25 +2,28 @@
 layout: default
 ---
 
-<section>
-  <p>hello</p>
+<section class="main-content">
+  <section class="info">
+    <p class="special">Hello,</p>
 
-  <h2>I'm Brian Munoz, </h2>
-  <h2>and I am a web developer</h2>
+    <h2>I'm Brian Munoz, </h2>
+    <h2>and I am a Web Developer</h2>
 
-  <p>I like to help people show</p>
-  <p>off there passion and business.</p>
+    <p class="desc">I like to help people show off there passion and business. The Web is the future get started now!</p>
+  </section>
+
+  {% include project.html %}
 </section>
 
-{% include project.html %}
-
-<section>
-  {% for prices in site.data.prices %}
+<section class="price">
+  <h2>To develop is to bring ideas to life!</h2>
+  <div class="price-details">
+    {% for prices in site.data.prices %}
     <div>
-      <h1>{{prices.number}}</h1>
+      <h1>{{prices.price}}</h1>
       <p>{{prices.title}}</p>
-      <h2>{{prices.price}}</h2>
     </div>
-  {% endfor %}
-  <p>I focus on the product and make sure it is top quality content</p>
+    {% endfor %}
+  </div>
+  <p class="price-info">The way the website is develop is important to me!</p>
 </section>

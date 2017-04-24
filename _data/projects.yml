@@ -1,11 +1,15 @@
-- title: fruits and vegetables
+- title: Fruits and Vegetables
   info: responsive design
   img: 'images/fruitsandvegetables.png'
+  link: 'http://colorlessenergy.github.io/'
 
 - title: Pacman
   info: small game
   img: 'images/pacman-game.png'
+  link: 'https://colorlessenergy.github.io/pacman/'
 
-- title: Portfolio
+
+- title: My Portfolio
   info: responsive design
   img: 'images/portfolio.png'
+  link: 'https://colorlessenergy.github.io/fruitsandvegetables/'
