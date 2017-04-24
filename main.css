@@ -61,13 +61,13 @@ nav {
   height: 100px;
 }
 
-nav img {
+nav .logo {
   height: 50px;
   margin-left: 50px;
   width: 50px
 }
 
-nav ul {
+nav .nav {
   display: flex;
   list-style-type: none;
   margin: 0;
@@ -75,13 +75,86 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
+nav .nav .current {
+  color: #d21717;
+}
+
+nav .nav li {
   margin: 0 10px;
 }
 
 nav ul li a {
   color: #000;
   text-decoration: none;
+}
+
+nav .responsive-nav {
+  background-color: #191919;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+nav .responsive-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .responsive-nav ul .menu-img {
+  align-self: flex-end;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 20px;
+}
+
+nav .responsive-nav ul .menu-img img {
+  height: 20px;
+  width: 20px;
+}
+
+nav .responsive-nav ul .page {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+nav .responsive-nav ul .page a {
+  color: #fff;
+}
+
+nav .responsive-nav ul .page a:hover {
+  color: #d21717;
+}
+
+nav .responsive-nav, .responsive-nav-footer {
+  margin-left: 20px;
+}
+
+nav .responsive-nav, .responsive-nav-footer .copyright {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+nav .responsive-nav, .responsive-nav-footer .github a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav #img-menu {
+  display: none;
+  height: 20px;
+  margin-right: 20px;
+  width: 20px;
 }
 
 .bg-img {
@@ -131,10 +204,6 @@ nav ul li a {
 .contact p {
   font-size: 50px;
   font-weight: bold;
-}
-
-.current {
-  color: red;
 }
 
 .show {
@@ -238,6 +307,10 @@ nav ul li a {
   text-align: center
   }
 
+  nav .nav {
+    display: none;
+  }
+
   .bg-img {
     width: 100%;
   }
@@ -258,5 +331,9 @@ nav ul li a {
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  nav #img-menu {
+    display: flex;
   }
 }

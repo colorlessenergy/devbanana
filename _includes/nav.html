@@ -1,6 +1,22 @@
-<img src="images/favicon.png" alt="banana">
-<ul>
+<img class="logo" src="images/favicon.png" alt="banana">
+<div class="menu-img" id="img-menu">
+  <img src="images/menu-icon.svg" alt="icon hamburger menu">
+</div>
+<ul class="nav" id="nav">
   <li><a href="{{site.baseurl}}/index.html" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
   <li><a href="{{site.baseurl}}/contact.html"{% if page.url == '/contact.html' %} class="current" {% endif %}>Contact Me</a></li>
   <li><a href="{{site.baseurl}}/projects.html"{% if page.url == '/projects.html' %} class="current" {% endif %}>Projects</a></li>
 </ul>
+
+<div class="responsive-nav" id="responsive-nav">
+  <ul>
+    <li class="menu-img" id="menu-img"><img src="images/icon-menu.svg" alt="icon hamburger menu"></li>
+    <li class="page"><a href="{{site.baseurl}}/index.html" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
+    <li class="page"><a href="{{site.baseurl}}/contact.html"{% if page.url == '/contact.html' %} class="current" {% endif %}>Contact Me</a></li>
+    <li class="page"><a href="{{site.baseurl}}/projects.html"{% if page.url == '/projects.html' %} class="current" {% endif %}>Projects</a></li>
+  </ul>
+  <div class="responsive-nav-footer">
+    <p class="github"><a href="https://github.com/colorlessenergy">Github</a></p>
+    <p class="copyright">&copy; Brian Munoz 2017. All Rights Reserved</p>
+  </div>
+</div>
