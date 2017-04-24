@@ -1,20 +1,26 @@
 ---
-layout: home
+layout: default
 ---
 
-<p>hello</p>
+<section>
+  <p>hello</p>
 
-<h2>I'm Brian Munoz, </h2>
-<h2>and I am a web developer</h2>
+  <h2>I'm Brian Munoz, </h2>
+  <h2>and I am a web developer</h2>
 
-<p>I like to help people show</p>
-<p>off there passion and business.</p>
+  <p>I like to help people show</p>
+  <p>off there passion and business.</p>
+</section>
 
-{% for project in site.data.projects %}
-  <div id="bg-img" class="bg-img" style="background-image: url({{site.baseurl}}/{{project.img}}) ">
-    <div id="show" class="show">
-      <p>{{project.title}}</p>
-      <p>{{project.info}}</p>
+{% include project.html %}
+
+<section>
+  {% for prices in site.data.prices %}
+    <div>
+      <h1>{{prices.number}}</h1>
+      <p>{{prices.title}}</p>
+      <h2>{{prices.price}}</h2>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+  <p>I focus on the product and make sure it is top quality content</p>
+</section>

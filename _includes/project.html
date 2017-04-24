@@ -1,0 +1,10 @@
+<section>
+  {% for project in site.data.projects %}
+    <div id="bg-img" class="bg-img" style="background-image: url({{site.baseurl}}/{{project.img}}) ">
+      <div id="show" class="show">
+        <p>{{project.title}}</p>
+        <p>{{project.info}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
