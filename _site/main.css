@@ -110,6 +110,25 @@ nav ul li a {
   margin-top: 10px;
 }
 
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.contact a {
+  color: #777;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.contact p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
 .current {
   color: red;
 }
@@ -146,7 +165,7 @@ nav ul li a {
   height: 500px;
 }
 
-.main-content .projects {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
