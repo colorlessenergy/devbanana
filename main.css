@@ -212,7 +212,7 @@ nav #img-menu {
   height: 100%;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.1s linear;
+  transition: visibility 0.4s, opacity 0.5s linear;
 }
 
 .bg-img:hover div {
