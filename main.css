@@ -238,6 +238,19 @@ nav #img-menu {
   height: 500px;
 }
 
+.main-content .info .animate-desc {
+  animation: type 4s steps(60, end);
+  color: #d21717;
+  margin-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 60%;
+}
+
+.main-content .info .animate-hold {
+  display: flex;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -339,5 +352,11 @@ nav #img-menu {
 
   nav #img-menu {
     display: flex;
+  }
+}
+
+@keyframes type {
+  from {
+    width: 0;
   }
 }
