@@ -315,6 +315,10 @@ nav #img-menu {
     width: 100%;
   }
 
+  .fruitsvegetables {
+    background-image: url("images/responsivefruitsandvegetables.png") !important;
+  }
+
   .main-content h2 {
     font-size: 40px;
   }

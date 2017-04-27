@@ -1,15 +1,18 @@
 - title: Fruits and Vegetables
+  class: fruitsvegetables
   info: responsive design
   img: 'images/fruitsandvegetables.png'
   link: 'http://colorlessenergy.github.io/'
 
 - title: Pacman
+  class: pacman
   info: small game
   img: 'images/pacman-game.png'
   link: 'https://colorlessenergy.github.io/pacman/'
 
 
 - title: My Portfolio
+  class: portfolio
   info: responsive design
   img: 'images/portfolio.png'
   link: 'https://colorlessenergy.github.io/fruitsandvegetables/'

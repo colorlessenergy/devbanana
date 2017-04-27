@@ -1,7 +1,7 @@
 <section class="projects">
   {% for project in site.data.projects %}
 
-    <div id="bg-img" class="bg-img" style="background-image: url({{site.baseurl}}/{{project.img}})">
+    <div id="bg-img" class="bg-img {{project.class}}" style="background-image: url({{site.baseurl}}/{{project.img}})">
       <a href="{{project.link}}">
       <div id="show" class="show">
         <div class="proj-info">
