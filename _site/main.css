@@ -239,7 +239,7 @@ nav #img-menu {
 }
 
 .main-content .info .animate-desc {
-  animation: type 4s steps(60, end);
+  animation: type 1s steps(60, end);
   color: #d21717;
   margin-left: 10px;
   overflow: hidden;
