@@ -360,6 +360,12 @@ nav #img-menu {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .main-content h2 {
+    font-size: 25px;
+  }
+}
+
 @keyframes type {
   from {
     width: 0;

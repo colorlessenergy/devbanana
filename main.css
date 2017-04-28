@@ -342,7 +342,7 @@ nav #img-menu {
   }
 
   .main-content .info .animate-desc {
-    margin-left: 2px;
+    margin-left: 3px;
   }
 
   .price .price-details div {
@@ -357,6 +357,12 @@ nav #img-menu {
 
   nav #img-menu {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-content h2 {
+    font-size: 25px;
   }
 }
 
