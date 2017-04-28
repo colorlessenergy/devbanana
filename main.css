@@ -341,6 +341,10 @@ nav #img-menu {
     margin: 0;
   }
 
+  .main-content .info .animate-desc {
+    margin-left: 2px;
+  }
+
   .price .price-details div {
     width: 100%;
   }
