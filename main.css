@@ -188,6 +188,10 @@ nav #img-menu {
   margin-top: 10px;
 }
 
+.portfolio {
+  background-position: initial;
+}
+
 .contact {
   align-items: center;
   display: flex;
