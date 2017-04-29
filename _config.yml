@@ -1,2 +1,13 @@
-baseurl: /devbanana
-exclude: ["README.md"]
+---
+title: Devbanana
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+baseurl: "/devbanana"
+exclude:
+- README.md
