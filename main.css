@@ -41,7 +41,6 @@ footer div .contact-button a {
 
 footer .creator {
   align-items: center;
-  background-color: #bbd4dc;
   display: flex;
   font-size: 13px;
   height: 100px;
@@ -262,7 +261,6 @@ nav #img-menu {
 }
 
 .price {
-  background-color: #bbd4dc;
   display: flex;
   flex-direction: column;
   padding: 0 0 100px 0;
